@@ -4,8 +4,6 @@
 #include <rHDF5Forward.h>
 #include <Rcpp.h>
 
-schmooga la munga
-
 namespace Rcpp{
         template <>
         SEXP wrap( const H5F_close_degree_t& mb ) {
