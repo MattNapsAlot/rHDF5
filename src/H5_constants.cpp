@@ -1,17 +1,7 @@
-#include <H5Cpp.h>
-#include <H5public.h>
-#include <H5Dpublic.h>
-#include <rHDF5_hsize_t.h>
-#include <rHDF5_hssize_t.h>
-#include <rHDF5_H5F_close_degree_t.h>
-#include <rHDF5_H5FD_mem_t.h>
-#include <rHDF5_H5F_scope_t.h>
-#include <rHDF5_H5G_obj_t.h>
-#include <rHDF5_H5R_type_t.h>
-#include <rHDF5_FileAccPropList.h>
-//#include <rHDF5_FileCreatePropList.h>
-#include <H5Classes.h>
-#include <Rcpp.h>
+#ifndef H5_CONSTANTS_CPP
+#define H5_CONSTANTS_CPP 
+
+#include <rHDF5.h>
 
 using namespace H5;
 using namespace Rcpp ;
@@ -136,3 +126,4 @@ RCPP_MODULE(H5constants){
 
 }
 
+#endif

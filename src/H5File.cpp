@@ -1,3 +1,6 @@
+#ifndef H5FILE_CPP
+#define H5FILE_CPP
+  
 #include <rHDF5.h>
 
 using namespace Rcpp ;
@@ -59,3 +62,5 @@ RCPP_MODULE(h5file){
 	function( "getObjCount", &getObjCount ) ;	
 	function( "isHdf5", &isHdf5 ) ;
 }
+
+#endif

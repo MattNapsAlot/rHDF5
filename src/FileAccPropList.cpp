@@ -1,5 +1,8 @@
+#ifndef FILEACCPROPLIST_CPP
+#define FILEACCPROPLIST_CPP
+
 #include <rHDF5.h>
-#include <H5Cpp.h>
+
 #define EXPORT_NUMERIC double
 #include <map>
 #include <string>
@@ -150,3 +153,5 @@ RCPP_MODULE(fileaccproplist){
         .method("getCache", &fileaccproplist_getCache)
 	;
 }
+
+#endif

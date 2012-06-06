@@ -29,5 +29,6 @@ all: mylibs  $(SHLIB)
 
 ## NOTE:  "make clean" has to be added before ./configure for final production
 mylibs:
+	rm *.o
 	cd szip; ./configure --disable-shared ; make install
 	cd hdf5; ./configure --disable-shared --with-pic --enable-cxx; make install

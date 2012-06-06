@@ -1,8 +1,6 @@
 #ifndef RHDF5_H5F_SCOPE_T_H
 #define RHDF5_H5F_SCOPE_T_H
 
-#include <rHDF5Forward.h>
-
 namespace Rcpp{
         template <>
         SEXP wrap( const H5F_scope_t& mb ) {

@@ -1,5 +1,7 @@
-#include <Rcpp.h>
-#include <H5Cpp.h>
+#ifndef DATASET_CPP
+#define DATASET_CPP
+
+#include <rHDF5.h>
 
 using namespace Rcpp ;
 
@@ -11,3 +13,5 @@ RCPP_MODULE(h5dataset) {
 	.method( "getId", &DataSet::getId)
 	;
 }
+
+#endif

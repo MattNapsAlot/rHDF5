@@ -1,3 +1,6 @@
+#ifndef FILECREATPROPLIST_CPP
+#define FILECREATPROPLIST_CPP
+
 #include <rHDF5.h>
 
 using namespace Rcpp ;
@@ -24,3 +27,6 @@ RCPP_MODULE(filecreatproplist){
 	.method( "fromClass", &FileCreatPropList::fromClass )
 	;
 }
+
+#endif
+

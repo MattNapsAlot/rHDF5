@@ -1,5 +1,7 @@
-#include <H5Cpp.h>
-#include <Rcpp.h>
+#ifndef H5LIBRARY_CPP
+#define H5LIBRARY_CPP 
+
+#include <rHDF5.h>
 
 using namespace Rcpp ;
 
@@ -55,3 +57,5 @@ RCPP_MODULE(h5library){
 	function( "garbageCollect", &garbageCollect ) ;
 	function( "setFreeListLimits", &setFreeListLimits ) ;
 }
+
+#endif
