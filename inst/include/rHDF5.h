@@ -19,6 +19,7 @@
 
 // MUST include these declarations after Rcpp.
 #include <rHDF5_FileAccPropList.h>
+#include <rHDF5_FileCreatPropList.h>
 #include <rHDF5_hsize_t.h>
 #include <rHDF5_hssize_t.h>
 #include <rHDF5_H5F_close_degree_t.h>
