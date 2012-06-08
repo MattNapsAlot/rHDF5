@@ -1,6 +1,8 @@
 #ifndef RHDF5_H 
 #define RHDF5_H
 
+#define EXPORT_NUMERIC double
+
 #include <RcppCommon.h>
 
 // General includes for H5 class definitions

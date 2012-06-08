@@ -3,7 +3,6 @@
 
 #include <rHDF5.h>
 
-#define EXPORT_NUMERIC double
 #include <map>
 #include <string>
 #include <utility>
