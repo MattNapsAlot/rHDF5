@@ -30,6 +30,18 @@ namespace Rcpp{
 
         template <> inline SEXP wrap( const FileCreatPropList& ) ;
         template <> inline FileCreatPropList as( SEXP ) ;
+
+        template <> inline SEXP wrap( const PropList& ) ;
+        template <> inline PropList as( SEXP ) ;
+ 
+        // TODO:  H5::Dataset
+                    //DataType
+                    //DataSpace
+                    //DSetMemXferPropList
+                    //H5Object
+                    //H5File
+                    //Atribute
+
 }
 
 #endif
