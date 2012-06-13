@@ -39,8 +39,8 @@ namespace Rcpp{
 
  
         // TODO:  H5::Dataset
-                    //DataType
-                    //DataSpace
+                    //DataType # Attribute depends on
+                    //DataSpace # Attribute depends on 
                     //DSetMemXferPropList
                     //H5Object
                     //H5File
