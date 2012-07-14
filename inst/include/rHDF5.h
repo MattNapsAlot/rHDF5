@@ -16,6 +16,7 @@
 #include <H5Classes.h>
 #include <H5PropList.h>
 #include <H5Attribute.h>
+#include <H5DataSpace.h>
 
 // Forward definitions / template magic
 #include <rHDF5Forward.h>
@@ -34,4 +35,6 @@
 #include <rHDF5_FileAccPropList.h>
 #include <rHDF5_PropList.h> 
 #include <rHDF5_Attribute.h>
+#include <rHDF5_DataSpace.h>
+
 #endif

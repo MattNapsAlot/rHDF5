@@ -37,10 +37,14 @@ namespace Rcpp{
         template <> inline SEXP wrap( const Attribute& ) ;
         template <> inline Attribute as( SEXP ) ;
 
+        template <> inline SEXP wrap( const DataSpace& ) ;
+        template <> inline DataSpace as( SEXP ) ;
+
+
+
  
         // TODO:  H5::Dataset
                     //DataType # Attribute depends on
-                    //DataSpace # Attribute depends on 
                     //DSetMemXferPropList
                     //H5Object
                     //H5File
